@@ -1,9 +1,9 @@
 .parent1{
     position: relative;
     
-    height: 1200px;
+    height: 100vh;
     background-color: #F4F4F4;
-    margin: 40px;
+    /* margin: 40px; */
     cursor: pointer;
    
 }
@@ -319,6 +319,14 @@
         /* margin-left:-9505%; */
         
     }
+    .pg3mainbox
+    {
+        width: 600px;
+        height: 800px;
+    }
+    .pg3popup{
+        margin-left: 30%;
+    }
     .parent3{
         margin-left: 10%;
     }
@@ -336,6 +344,21 @@
     }
     .t{
         width: 20vw;
+    }
+    .ant{
+        display: none;
+    }
+    .pg4popup{
+        left: 30%;
+        top: 40%;
+        width: 55%;
+    }
+    #blur{
+        width: 200%;
+       
+    }
+    .b2{
+        left: -100px;
     }
 }
    /* For Tab */
@@ -399,5 +422,23 @@
     }
     .logo3{
         margin-left: -380px;
+    }
+    .t{
+        width: 20vw;
+    }
+    .ant{
+        display: none;
+    }
+    .pg4popup{
+        left: 30%;
+        top: 40%;
+        width: 40%;
+    }
+    #blur{
+        width: 200%;
+       
+    }
+    .b2{
+        left: -100px;
     }
 }
