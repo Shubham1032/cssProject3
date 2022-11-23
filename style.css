@@ -30,6 +30,7 @@
    /* position: absolute; */
    /* top: 80px; */
    font-size: xx-large;
+   margin-top: 20px;
    /* right: 260px; */
    
 
@@ -80,12 +81,9 @@
     color: #424242;
     padding-left: 15px;
     margin-left: 5px;
-    box-shadow: 2px 3px 3px 3px grey;
+  
 }
-.paris:hover
-{
-    border:  #424242 ;
-}
+
 
 .line
 {
@@ -363,7 +361,7 @@
 }
    /* For Tab */
 
-@media screen and (min-width:600px) and (max-width:856px)
+@media screen and (min-width:600px) and (max-width:900px)
 {
     .parent2{
         /* flex-direction: column; */
