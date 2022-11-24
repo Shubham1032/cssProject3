@@ -27,11 +27,10 @@
 .logo{
    color: #00A5EC;
    align-items: center;
-   /* position: absolute; */
-   /* top: 80px; */
+  
    font-size: xx-large;
    margin-top: 20px;
-   /* right: 260px; */
+   
    
 
 }
@@ -49,6 +48,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-left: 65px;
 
@@ -68,7 +68,7 @@
     color: #424242;
     padding-left: 15px;
     margin-left: 5px;
-    box-shadow: 2px 3px 3px 3px grey;}
+    }
 .paris{
     border: 1px solid #67676729;
     background-color: white;
@@ -119,7 +119,7 @@
 
 .back-arrow
 {
-    /* position: fixed; */
+   
     position: absolute;
     font-size: xx-large;
     margin-left: 300px;
@@ -149,7 +149,6 @@
     height: 160px;
     width: 32vw;
     top: 230px;
-    box-shadow: 1px 3px 3px grey;
     border-radius: 10px;
     left: 30vw;
 }
@@ -270,9 +269,7 @@
 
 @media screen and (min-width:360px) and (max-width:600px)
 {
-    /* .parent1{
-         width: 40px;
-    } */
+  
     .parent2{
         flex-direction: column;
         margin-left: 10%;
